@@ -11,3 +11,4 @@ services:
     image: hubspot_lists
     volumes:
       - ./files:/files
+      - .:/app
